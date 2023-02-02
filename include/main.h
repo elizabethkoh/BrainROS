@@ -95,8 +95,8 @@ extern "C" void vexGenericSerialBaudrate(  uint32_t index, uint32_t rate );
 #define REVERSE_TURN_ANGLE 10.0
 
 
-#define SINGLE_CHANNEL_DRIVE 1
-#define TANK_DRIVE 0
+#define SINGLE_CHANNEL_DRIVE 0
+#define TANK_DRIVE 1
 
 
 // ptr has to be declared as uint8_t array
